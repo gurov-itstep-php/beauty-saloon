@@ -7,3 +7,4 @@ require_once('sys/lib/autoloader.php');
 //---------------------------------------
 //echo('<h3>Front-Controller: OK</h3>');
 $testObject = new \sys\core\Test;
+$baseController = new \sys\core\Controller;
