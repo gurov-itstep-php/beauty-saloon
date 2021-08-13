@@ -14,6 +14,6 @@ class Controller {
 
     public function __construct($model = null) {
         $this->model = $model;
-        echo("<h3>Base Controller - OK!</h3>");
+        //echo("<h3>Base Controller - OK!</h3>");
     }
 }
