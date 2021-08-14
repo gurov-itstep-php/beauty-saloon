@@ -24,6 +24,6 @@ spl_autoload_register(function ($classPath) {
     if (file_exists($fileName)) {
         require_once($fileName);
     } else {
-        echo('<h3 style="color: red">Class Not Found</h3>');
+        //echo('<h3 style="color: red">Class Not Found</h3>');
     }
 });
