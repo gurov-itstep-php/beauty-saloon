@@ -2,9 +2,13 @@
 
 session_start();
 require_once('sys/lib/autoloader.php');
+$router = new \sys\lib\Router;
+$router->run();
 
 // TestsТесты базовых и ключевых классов:
 //---------------------------------------
+
+
 /*
 $provider = new \sys\lib\Provider;
 $model = new \sys\core\Model;
