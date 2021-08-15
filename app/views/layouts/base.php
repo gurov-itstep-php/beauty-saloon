@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Beauty-Saloon - <?=$title?></title>
+    <title>Beauty-Saloon-Careo - <?=$title?></title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,10 +30,9 @@
         <?php include('app/views/includes/header.php'); ?>
     </header>
         
-    
         <!--Content -->
-         <?php include($this->contentPath); ?> 
-
+        <?php include($this->contentPath); ?> 
+        
         <!-- Footer -->
         <?php include('app/views/includes/footer.php'); ?>
 
