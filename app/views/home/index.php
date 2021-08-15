@@ -16,7 +16,7 @@
                            <span>Welcome to</span>
                            <h1>Careo</h1>
                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are </p>
-                           <a href="#">Sign up</a> <a href="#">Sign in</a>
+                           <a href="<?=self::ROOT?>/auth/reg">Sign up</a> <a href="<?=self::ROOT?>/auth/entry">Sign in</a>
                         </div>
                      </div>
                      <div class="col-md-6">
@@ -37,7 +37,7 @@
                            <span>Welcome to</span>
                            <h1>Careo</h1>
                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are </p>
-                           <a href="#">Sign up</a> <a href="#">Sign in</a>
+                           <a href="<?=self::ROOT?>/auth/reg">Sign up</a> <a href="<?=self::ROOT?>/auth/entry">Sign in</a>
                         </div>
                      </div>
                      <div class="col-md-6">
@@ -58,7 +58,7 @@
                            <span>Welcome to</span>
                            <h1>Careo</h1>
                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are </p>
-                           <a href="#">Sign up</a> <a href="#">Sign in</a>
+                           <a href="<?=self::ROOT?>/auth/reg">Sign up</a> <a href="<?=self::ROOT?>/auth/entry">Sign in</a>
                         </div>
                      </div>
                      <div class="col-md-6">
