@@ -19,9 +19,9 @@
                      <div class="col-md-6">
                         <div class="text-bg">
                            <span>Welcome to</span>
-                           <h1>labspa</h1>
+                           <h1>Beauty</h1>
                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are </p>
-                           <a href="#">Read More </a> <a href="#">Book Now</a>
+                           <a href="#">Sign up</a> <a href="#">Sign in</a>
                         </div>
                      </div>
                      <div class="col-md-6">
@@ -40,9 +40,9 @@
                      <div class="col-md-6">
                         <div class="text-bg">
                            <span>Welcome to</span>
-                           <h1>labspa</h1>
+                           <h1>Beauty</h1>
                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are </p>
-                           <a href="#">Read More </a> <a href="#">Book Now</a>
+                           <a href="#">Sign up</a> <a href="#">Sign in</a>
                         </div>
                      </div>
                      <div class="col-md-6">
@@ -61,9 +61,9 @@
                      <div class="col-md-6">
                         <div class="text-bg">
                            <span>Welcome to</span>
-                           <h1>labspa</h1>
+                           <h1>Beauty</h1>
                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are </p>
-                           <a href="#">Read More </a> <a href="#">Book Now</a>
+                           <a href="#">Sign up</a> <a href="#">Sign in</a>
                         </div>
                      </div>
                      <div class="col-md-6">

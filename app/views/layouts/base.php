@@ -27,11 +27,15 @@
 <body class="main-layout">
     <header>
         <?php include('app/views/includes/nav.php'); ?>
-    </header>
         <?php include('app/views/includes/header.php'); ?>
+    </header>
+        
     
-        <!--Content-->
-        <?php include($this->contentPath); ?>
+        <!--Content -->
+         <?php include($this->contentPath); ?> 
+
+        <!-- Footer -->
+        <?php include('app/views/includes/footer.php'); ?>
 
         <!-- Javascript files-->
         <script src="<?=self::RES?>/js/jquery.min.js"></script>
