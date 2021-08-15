@@ -5,24 +5,24 @@
                   <div class="col-xl-5 col-lg-5 col-md-9 col-sm-9">
                      <nav class="navigation navbar navbar-expand-md navbar-dark ">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                           <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarsExample04">
                            <ul class="navbar-nav mr-auto">
                               <li class="nav-item active">
-                                 <a class="nav-link" href="index.html"> Home  </a>
+                                 <a class="nav-link" href="<?= self::ROOT ?>/home"> Home </a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="#about">About</a>
+                                 <a class="nav-link" href="<?= self::ROOT ?>/home/about">About</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="#service">Service</a>
+                                 <a class="nav-link" href="<?= self::ROOT ?>/home/menu">Menu</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="#customer">Customer</a>
+                                 <a class="nav-link" href="<?= self::ROOT ?>/home/feedback">Feedbacks</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="#contact">Contact Us</a>
+                                 <a class="nav-link" href="<?= self::ROOT ?>/home/contact">Contact Us</a>
                               </li>
                            </ul>
                         </div>
@@ -32,7 +32,7 @@
                      <div class="full">
                         <div class="center-desk">
                            <div class="logo">
-                              <a href="index.html"><img src="<?=self::RES?>/images/logo.png" alt="#" /></a>
+                              <a href="<?= self::ROOT ?>/home"><img src="<?= self::RES ?>/images/logo.png" alt="#" /></a>
                            </div>
                         </div>
                      </div>

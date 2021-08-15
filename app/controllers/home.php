@@ -14,7 +14,19 @@ class Home extends Controller {
 
     public function about() {
         return new View('home/about.php', [
-            'about' => 'Про сайт'
+            'title' => 'О салоне'
+        ]);
+    }
+
+    public function menu() {
+        return new View('home/menu.php', [
+            'title' => 'Меню услуг'
+        ]);
+    }
+
+    public function feedback() {
+        return new View('home/feedback.php', [
+            'title' => 'Отзывы'
         ]);
     }
 
