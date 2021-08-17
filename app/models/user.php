@@ -30,4 +30,16 @@ class User extends Model {
             return false;
         }
     }
+
+    public function check_email($email) {
+        $sql = 'select email from users where email=?';
+        $params = [$email];
+        $result = $this->execute_select_query($sql, $params);
+        //
+        if (count($result) === 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }

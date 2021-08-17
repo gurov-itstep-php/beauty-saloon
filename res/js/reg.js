@@ -51,7 +51,7 @@ $(document).ready(() => {
         let pass1Value = $('#pass1').val();
         //console.log(`userPass1: ${pass1Value}`);
         if (regExp2.test(pass1Value)) {
-            console.log('pass1-valid');
+            console.log('#pass1-valid');
             correct2 = true;
             $('pass1-error').html('');
         } else {
@@ -79,6 +79,36 @@ $(document).ready(() => {
 
     // Проверка E-mail:
     //---------------------------?
+    $('#email').blur(() => {
+        let emailValue = $('#email').val();
+        console.log(`userEmail: ${emailValue}`);
+        if (regExp3.test(emailValue)) {
+            // Проверка занятости логина:
+            //----------------------------
+            $.ajax({
+                type: "POST",
+                url: "/php/beauty-saloon/auth/ajax_check_email",
+                data: "email=" + emailValue,
+                success: function (result) {
+                    //*
+                    console.log(result);
+                    if (result === "занят") {
+                        $('#email-error').html('Такой E-mail уже используется!');
+                        console.log('email-failed');
+                        correct4 = false;
+                    } else {
+                        $('#email-error').html('');
+                        console.log('email-valid');
+                        correct4 = true;
+                    }
+                }
+            });
+        } else {
+            console.log('email-failed');
+            correct4 = false;
+            $('#email-error').html('Введенный Е-mail не прошел проверку корректности!<br>(пример: «nick@mail.com»)');
+        }
+    });
 
     // финальная проверка результатов валидации:
     $('#submit').click(() => {
