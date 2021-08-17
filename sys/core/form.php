@@ -48,7 +48,7 @@ class Form {
         }
         //
         echo('<div class="btn-group">');
-        echo('<input type="submit" id="submit" name="submit" value="Отправить" class="btn-sm btn-success my-btn" />');
+        echo('<input type="submit" id="submit" name="submit" value="Отправить" class="btn-sm btn-premium my-btn" />');
         echo('<input type="reset" id="reset" name="reset" value="Очистить" class="btn-sm btn-danger my-btn" />');
         echo('</div>');
         //

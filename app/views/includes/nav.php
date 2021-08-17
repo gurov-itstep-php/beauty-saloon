@@ -2,7 +2,7 @@
          <div class="header">
             <div class="container">
                <div class="row">
-                  <div class="col-xl-6 col-lg-5 col-md-9 col-sm-9">
+                  <div class="col-xl-5 col-lg-5 col-md-9 col-sm-9">
                      <nav class="navigation navbar navbar-expand-md navbar-dark ">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                            <span class="navbar-toggler-icon"></span>
@@ -28,7 +28,7 @@
                         </div>
                      </nav>
                   </div>
-                  <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col logo_section">
+                  <div class="col-xl-3 col-lg-2 col-md-3 col-sm-3 col logo_section">
                      <div class="full">
                         <div class="center-desk">
                            <div class="logo">

@@ -42,7 +42,7 @@
                      </div>
                      <div class="col-md-6">
                         <div class="text_img">
-                           <figure><img src="<?=self::RES?>/images/girl.png" alt="#"/></figure>
+                           <figure><img src="<?=self::RES?>/images/girl2.png" alt="#"/></figure>
                         </div>
                      </div>
                   </div>
@@ -63,7 +63,7 @@
                      </div>
                      <div class="col-md-6">
                         <div class="text_img">
-                           <figure><img src="<?=self::RES?>/images/girl.png" alt="#"/></figure>
+                           <figure><img src="<?=self::RES?>/images/girl3.png" alt="#"/></figure>
                         </div>
                      </div>
                   </div>

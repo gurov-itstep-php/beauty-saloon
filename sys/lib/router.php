@@ -74,7 +74,7 @@ class Router {
                 //
                 $action = $this->actionName;
                 if ($this->paramValue !== '') {
-                    $param = intval($this->paramValue);
+                    $param = $this->paramValue;
                     $controller->$action($param);
                 } else {
                     $controller->$action();
