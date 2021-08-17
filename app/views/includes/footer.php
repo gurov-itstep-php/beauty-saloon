@@ -1,4 +1,3 @@
-<hr>
 <footer id="contact">
    <div class="footer">
       <div class="container">

@@ -39,7 +39,7 @@ class Auth extends Controller {
             $mailer = new Mailer($email);
             $mailer->send();
             ///
-            $message = "Вы успешно зарегистрировались на сайте <b>Beauty-Saloon Careo</b><hr>";
+            $message = "Вы пытаетесь зарегистрироваться на сайте <b>Beauty-Saloon Careo</b><hr>";
             $message .= "На указанный вами e-mail: <b>$email</b> отправлено письмо,<br>";
             $message .= "в котором содержится ссылка на подтверждение Вашей регистрации.<hr>";
             $color = 'darkred';
@@ -57,7 +57,7 @@ class Auth extends Controller {
         return new View('auth/confirm.php', [
             'title' => 'Register-Confirm',
             'message' => "Регистрация пользователя <b>$email</b> - успешно подтверждена!",
-            'color' => 'blue'
+            'color' => 'darkred'
         ]);
     }
 
