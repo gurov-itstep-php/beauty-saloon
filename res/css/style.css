@@ -564,6 +564,7 @@ ul.email li a {
 /** service section **/
 
 .service {
+     
      padding: 90px 0;
      background: #fff;
 }
@@ -627,7 +628,7 @@ ul.email li a {
 /** about section **/
 
 .about {
-     background: url(../images/about_bg.jpg);
+     background: url(../images/contact.jpg);
      background-size: 100% 100%;
      background-repeat: no-repeat;
      height: 100vh;

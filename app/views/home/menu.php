@@ -1,5 +1,5 @@
 <!-- Menu -->
-<div id="service" class="service">
+<div id="service" class="menu">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
