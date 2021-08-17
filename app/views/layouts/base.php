@@ -44,6 +44,7 @@
         <!-- sidebar -->
         <script src="<?=self::RES?>/js/jquery.mCustomScrollbar.concat.min.js"></script>
         <script src="<?=self::RES?>/js/custom.js"></script>
+        <script src="<?=$script?>"></script>
         <script>
          $('a[href^="#"]').on('click', function(event) {
          
