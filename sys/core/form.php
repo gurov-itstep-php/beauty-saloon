@@ -23,7 +23,7 @@ class Form {
         if($this->enctype !== '') {
             echo(' enctype="'.$this->enctype.'"');
         }
-        // echo(' onsubmit="return false"'); //валидация
+        echo(' onsubmit="return false"'); //валидация
         echo('>');
         //
         if(is_array($this->fields) && count($this->fields) > 0) {

@@ -19,7 +19,8 @@ class Auth extends Controller {
         if (empty($_POST['submit'])) {
             return new View('auth/reg.php', [
                 'title' => 'Регистрация',
-                'form' => $form
+                'form' => $form,
+                'script' => View::RES.'/js/reg.js'
             ]);
         } else {
             //
@@ -65,5 +66,16 @@ class Auth extends Controller {
         return new View('auth/entry.php', [
             'title' => 'Авторизация'
         ]);        
+    }
+
+    //--------------------------------------------ajax
+    public function ajax_check_login() {
+        //echo('ajax-OK!');
+        $loginX = $_POST['login'];
+        if ($this->model->check_login($loginX)) {
+            echo('свободен');
+        } else {
+            echo('занят');
+        }
     }
 }
