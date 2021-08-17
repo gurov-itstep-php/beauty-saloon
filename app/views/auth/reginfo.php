@@ -1,4 +1,4 @@
-<div style="padding-top: 120px; text-align: center;">
+<div class="auth-main">
     <h3>Отчет о регистрации</h3>
     <div class="form-box" style="width: 70%">
         <h4 style="margin-bottom: 30px; font-size: 12pt; color: <?=$color?>">

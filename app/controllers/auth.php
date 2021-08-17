@@ -6,7 +6,7 @@ use \sys\core\View as View;
 use \app\models\User as User;
 use \app\forms\Regform as Regform;
 use \sys\core\Controller as Controller;
-//use \sys\lib\Mailer as Mailer;
+use \sys\lib\Mailer as Mailer;
 
 class Auth extends Controller {
 
@@ -36,8 +36,8 @@ class Auth extends Controller {
             $this->model->register($login, $passw, $email, $regdate, $role_id, $status_id, $confirm);
             ///
             // mail ...
-            /*$mailer = new Mailer($email);
-            $mailer->send();*/
+            $mailer = new Mailer($email);
+            $mailer->send();
             ///
             $message = "Вы успешно зарегистрировались на сайте <b>Beauty-Saloon Careo</b><hr>";
             $message .= "На указанный вами e-mail: <b>$email</b> отправлено письмо,<br>";
@@ -52,11 +52,11 @@ class Auth extends Controller {
         }
     }
 
-    /*public function confirm($email) {
+    public function confirm($email) {
         $this->model->reg_confirm($email);
         return new View('auth/confirm.php', [
             'title' => 'Register-Confirm',
-            'message' => "Регистрация пользователя <b>$email</b> - успешно подтверждена",
+            'message' => "Регистрация пользователя <b>$email</b> - успешно подтверждена!",
             'color' => 'blue'
         ]);
     }
@@ -65,5 +65,5 @@ class Auth extends Controller {
         return new View('auth/entry.php', [
             'title' => 'Авторизация'
         ]);        
-    }*/
+    }
 }
