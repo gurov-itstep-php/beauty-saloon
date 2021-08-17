@@ -1,8 +1,8 @@
 <div class="auth-main">
-    <h3>Подтверждение регистрации</h3>
-    <div class="form-box" style="width: 70%">
-        <h4 style="margin-bottom: 30px; font-size: 12pt; color: <?=$color?>">
+    <center><h1 style="color: rgb(238, 215, 234);">Подтверждение регистрации</h1></center>
+    <div class="form-box" style="width: 50%">
+    <h3 style="font-size: 14pt; text-align: center; color: <?=$color?>">
             <?=$message?>
-        </h4>
+        </h3>
     </div>
 </div>

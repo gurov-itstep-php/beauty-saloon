@@ -22,7 +22,7 @@ class Mailer {
         $html .= '<html>';
         $html .= '<body>';
         $html .= '<h3>Подтверждение регистрации на сайте Beauty-Saloon Careo</h3>';
-        $html .= '<h4><a href="http://localhost/php/teach-assistant/auth/confirm/'.$this->to.'">Подтвердить</a></h4>';
+        $html .= '<h4><a href="http://localhost/php/beauty-saloon/auth/confirm/'.$this->to.'">Для подтверждения - нажмите на эту ссылку!</a></h4>';
         $html .= '</body>';
         $html .= '</html>';
         return $html;
