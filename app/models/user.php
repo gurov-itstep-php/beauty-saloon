@@ -42,4 +42,28 @@ class User extends Model {
             return false;
         }
     }
+
+    public function authenticate($login, $passw) {
+        $sql = 'select login, passw from users where login=? and passw=?';
+        $params = [$login, $passw];
+        $result = $this->execute_select_query($sql, $params);
+        //
+        if (count($result) > 0 ){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public function check_confirm($login) {
+        $sql = 'select confirm from users where login=?';
+        $params = [$login];
+        $result = $this->execute_select_query($sql, $params);
+        //
+        if (count($result) > 0 && $result[0]['confirm'] === 'yes') {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
