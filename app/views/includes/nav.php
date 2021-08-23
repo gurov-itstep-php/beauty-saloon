@@ -36,9 +36,11 @@
                      <li class="nav-item">
                         <a class="nav-link" href="<?= self::ROOT ?>/home/contact">Contact</a>
                      </li>
+                     <?php if($this->currentUser === 'admin123') { ?>
                      <li>
-                        <a class="nav-link" href="<?= self::ROOT ?>/admin">Admpanel</a>
+                        <a class="nav-link" href="<?= self::ROOT ?>/admin">Admin-panel</a>
                      </li>
+                     <?php } ?>
                   </ul>
                </div>
             </nav>
