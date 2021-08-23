@@ -2,15 +2,30 @@
     <div class="container">
         <center>
             <h2 style="color: rgb(238, 215, 234);">
-                Админка
+                Панель управления администратора сайта
             </h2>
         </center>
         <hr>
-        <div class="row">
-            <div class="col-md-3"><h4 style="color: rgb(238, 215, 234);">Управление категориями</h4></div>
-            <div class="col-md-3"><h4 style="color: rgb(238, 215, 234);">Управление специалистами</h4></div>
-            <div class="col-md-3"><h4 style="color: rgb(238, 215, 234);">Управление ролями</h4></div>
-            <div class="col-md-3"><h4 style="color: rgb(238, 215, 234);">Управление пользователями</h4></div>
+        <div class="row" style="text-align:center">
+            <div class="col-md-2">
+                <a href="" class="btn btn-sm btn-light">Категории услуг</a>
+            </div>
+            <div class="col-md-2">
+                <a href="" class="btn btn-sm btn-light">Специалисты</a>
+            </div>
+             <div class="col-md-2">
+                <a href="" class="btn btn-sm btn-light">Пользователи</a>
+            </div>
+            <div class="col-md-2">
+                <a href="" class="btn btn-sm btn-light">Резервы</a>
+            </div>
+            <div class="col-md-2">
+                <a href="" class="btn btn-sm btn-light">Роли пользователей</a>
+            </div>
+            <div class="col-md-2">
+                <a href="" class="btn btn-sm btn-light">Реклама</a>
+            </div>
         </div>
+        <hr>
     </div>
 </div>

@@ -20,16 +20,16 @@
 
 .my-btn {
     font-size: 16px;
-     transition: ease-in all 0.5s;
-     background-color: #683b43;
-     color: #fff;
-     padding: 9px 0px;
-     max-width: 174px;
-     border: #fff solid 1px;
-     display: block;
-     font-weight: 500;
-     text-transform: uppercase;
-     border-radius: 35px;
+    transition: ease-in all 0.5s;
+    background-color: #461d30;
+    color: rgb(238, 215, 234);
+    padding: 9px 0px;
+    max-width: 174px;
+    border: rgb(238, 215, 234) solid 1px;
+    display: block;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 35px;
     /**/
     width: 150px;
     margin: 3px;

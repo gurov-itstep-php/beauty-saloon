@@ -21,7 +21,6 @@
                </button>
                <div class="collapse navbar-collapse" id="navbarsExample04">
                   <ul class="navbar-nav mr-auto">
-                     <!-- Добавить подсветку кнопки активной страницы - "active" -->
                      <li class="nav-item">
                         <a class="nav-link" href="<?= self::ROOT ?>/home"> Home </a>
                      </li>
