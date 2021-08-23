@@ -25,19 +25,19 @@ class Catalog extends Controller {
         ]);
     }
 
-    public function update() {
+    public function update($productId) {
         return new View('catalog/update.php', [
             'title' => 'Обновление услуги'
         ]);
     }
 
-    public function delete() {
+    public function delete($productId) {
         return new View('catalog/delete.php', [
             'title' => 'Удаление услуги'
         ]);
     }
 
-    public function details() {
+    public function details($productId) {
         return new View('catalog/details.php', [
             'title' => 'Детали услуги'
         ]);
