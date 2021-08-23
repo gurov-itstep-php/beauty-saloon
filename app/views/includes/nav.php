@@ -2,7 +2,7 @@
          <div class="header">
             <div class="container">
                <div class="row">
-                  <div class="col-xl-5 col-lg-5 col-md-9 col-sm-9">
+                  <div class="col-xl-6 col-lg-5 col-md-9 col-sm-9">
                      <nav class="navigation navbar navbar-expand-md navbar-dark ">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                            <span class="navbar-toggler-icon"></span>
@@ -16,19 +16,22 @@
                                  <a class="nav-link" href="<?= self::ROOT ?>/home/about">About</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="<?= self::ROOT ?>/home/menu">Menu</a>
+                                 <a class="nav-link" href="<?= self::ROOT ?>/catalog">Menu</a>
                               </li>
                               <li class="nav-item">
                                  <a class="nav-link" href="<?= self::ROOT ?>/home/feedback">Feedbacks</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="<?= self::ROOT ?>/home/contact">Contact Us</a>
+                                 <a class="nav-link" href="<?= self::ROOT ?>/home/contact">Contact</a>
+                              </li>
+                              <li>
+                                 <a class="nav-link" href="<?= self::ROOT ?>/admin">Admpanel</a>
                               </li>
                            </ul>
                         </div>
                      </nav>
                   </div>
-                  <div class="col-xl-3 col-lg-2 col-md-3 col-sm-3 col logo_section">
+                  <div class="col-xl-2 col-lg-2 col-md-3 col-sm-3 col logo_section">
                      <div class="full">
                         <div class="center-desk">
                            <div class="logo">
@@ -40,7 +43,7 @@
                   <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5">
                      <ul class="email">
                         <li>
-                           <a href="" style="margin-right: 70px;">Hi,
+                           <a href="" style="margin-right: 20px;">Hi,
                               <span style="color: maroon">
                                  <?= $this->currentUser ?>
                               </span>
