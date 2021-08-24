@@ -33,13 +33,14 @@
                      <li class="nav-item">
                         <a class="nav-link" href="<?= self::ROOT ?>/home/feedback">Feedbacks</a>
                      </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="<?= self::ROOT ?>/home/contact">Contact</a>
-                     </li>
-                     <?php if($this->currentUser === 'admin123') { ?>
-                     <li>
-                        <a class="nav-link" href="<?= self::ROOT ?>/admin">Admin-panel</a>
-                     </li>
+                     <?php if ($this->currentUser === 'admin123') { ?>
+                        <li>
+                           <a class="nav-link" href="<?= self::ROOT ?>/admin">Admin-panel</a>
+                        </li>
+                     <?php } else { ?>
+                        <li class="nav-item">
+                           <a class="nav-link" href="<?= self::ROOT ?>/home/contact">Contact Us</a>
+                        </li>
                      <?php } ?>
                   </ul>
                </div>
