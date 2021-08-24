@@ -24,7 +24,7 @@ class Form {
             echo(' enctype="'.$this->enctype.'"');
         }
         //*
-        if ($this->name !== 'entryform' /*&& $this->name !== 'feedbackform'*/) {
+        if ($this->name === 'regform') {
             echo(' onsubmit="return false"'); //валидация
         }
         echo('>');

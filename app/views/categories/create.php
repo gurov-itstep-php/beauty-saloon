@@ -4,4 +4,7 @@
             Добавление категории услуг
         </h2>
     </center>
+    <div class="form-box">
+        <?php $form->generate(); ?>
+    </div>
 </div>

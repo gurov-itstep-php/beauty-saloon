@@ -96,6 +96,7 @@ class Auth extends Controller {
                 $color = 'red';
             }
             // 
+            // -> Добавить проверку - если админ, то автоматический переход на админку
             return new View('auth/entryinfo.php', [
                 'title' => 'Entry-Info',
                 'message' => $message,
