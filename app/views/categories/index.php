@@ -5,7 +5,16 @@
         </h2>
     </center>
     <hr>
-    <p>
-        <!--# вставить ссылки CRUD -->
-    </p>
+    <div class="row" style="text-align:center">
+            <div class="col-md-4">
+                <a href="<?= self::ROOT ?>/categories/create" class="btn btn-sm btn-light" style="width: 150px">Добавить категорию</a>
+            </div>
+            <div class="col-md-4">
+                <a href="<?= self::ROOT ?>/categories/delete" class="btn btn-sm btn-light" style="width: 150px">Удалить категорию</a>
+            </div>
+            <div class="col-md-4">
+                <a href="<?= self::ROOT ?>/categories/update" class="btn btn-sm btn-light" style="width: 150px">Обновить категорию</a>
+            </div>
+        </div>
+        <hr>
 </div>

@@ -8,7 +8,7 @@ class Category extends Model {
 
     public function add_category($categoryName) {
         //
-        $sql = "insert into categories (name) values=?";
+        $sql = "insert into categories (name) values (?)";
         $params = [$categoryName];
         $this->execute_dml_query($sql, $params);
     }
