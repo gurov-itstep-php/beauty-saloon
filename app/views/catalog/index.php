@@ -30,9 +30,6 @@
                         <p>some form, by injected humour, or randomised words which don't look even slightly believable. If you are </p>
                     </div>
                 </div>
-                <div class="col-md-12">
-                    <a class="read_more" href="#">Read More</a>
-                </div>
             </div>
         </div>
     </div>

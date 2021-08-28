@@ -57,18 +57,14 @@
          </div>
          <div class="col-xl-4 col-lg-5 col-md-5 col-sm-5">
             <ul class="email">
-               <li>
-                  <a href="" style="margin-right: 20px;">Hi,
-                     <span style="color: maroon">
-                        <?= $this->currentUser ?>
-                     </span>
-                  </a>
-               </li>
                <?php if ($this->currentUser === 'Guest') { ?>
                   <li><a href="<?= self::ROOT ?>/auth/reg">Register</a></li>
                   <li><a href="<?= self::ROOT ?>/auth/entry">Login</a></li>
                <?php } else { ?>
-                  <li><a href="<?= self::ROOT ?>/auth/profile">Profile</a></li>
+                  <li><a href="<?= self::ROOT ?>/auth/profile">Hi,
+                     <span style="color: maroon">
+                        <?= $this->currentUser ?>
+                     </span></a></li>
                   <li><a href="<?= self::ROOT ?>/auth/exit">Exit</a></li>
                <?php } ?>
             </ul>

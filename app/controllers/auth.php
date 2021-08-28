@@ -8,20 +8,24 @@ use \app\forms\Regform as Regform;
 use \app\forms\Entryform as Entryform;
 use \sys\core\Controller as Controller;
 use \sys\lib\Mailer as Mailer;
+use sys\lib\Status;
 
-class Auth extends Controller {
+class Auth extends Controller
+{
 
-    public function __construct() {
+    public function __construct()
+    {
         parent::__construct(new User());
     }
 
-    public function reg() {
+    public function reg()
+    {
         $form = new Regform();
         if (empty($_POST['submit'])) {
             return new View('auth/reg.php', [
                 'title' => 'Регистрация',
                 'form' => $form,
-                'script' => View::RES.'/js/reg.js'
+                'script' => View::RES . '/js/reg.js'
             ]);
         } else {
             //
@@ -54,7 +58,8 @@ class Auth extends Controller {
         }
     }
 
-    public function confirm($email) {
+    public function confirm($email)
+    {
         $this->model->reg_confirm($email);
         return new View('auth/confirm.php', [
             'title' => 'Register-Confirm',
@@ -63,7 +68,8 @@ class Auth extends Controller {
         ]);
     }
 
-    public function entry() {
+    public function entry()
+    {
         $form = new Entryform();
         if (empty($_POST['submit'])) {
             return new View('auth/entry.php', [
@@ -80,10 +86,10 @@ class Auth extends Controller {
             //
             if ($this->model->authenticate($login, $passw)) {
                 //*
-                if($this->model->check_confirm($login)) {
+                if ($this->model->check_confirm($login)) {
                     $_SESSION['user'] = $login;
                     if ($stand === 'yes') {
-                        setcookie('user', $login, time() + 3600 * 24 * 7 ); // куки на 7 дней
+                        setcookie('user', $login, time() + 3600 * 24 * 7); // куки на 7 дней
                     }
                     $message = 'Вы авторизовались на сайте <b>Beauty-Saloon Careo</b> !<hr>';
                     $color = 'darkblue';
@@ -105,13 +111,15 @@ class Auth extends Controller {
         }
     }
 
-    public function profile() {
+    public function profile()
+    {
         return new View('auth/profile.php', [
             'title' => 'Profile Users'
         ]);
     }
 
-    public function exit() {
+    public function exit()
+    {
         session_destroy();
         if (isset($_COOKIE['user'])) {
             setcookie('user', '', time() - 3600);
@@ -121,23 +129,30 @@ class Auth extends Controller {
         ]);
     }
 
+    public function redirectadmin()
+    {
+        return new View('categories/redirectadmin.php');
+    }
+
     //--------------------------------------------ajax
-    public function ajax_check_login() {
+    public function ajax_check_login()
+    {
         //echo('ajax-OK!');
         $loginX = $_POST['login'];
         if ($this->model->check_login($loginX)) {
-            echo('свободен');
+            echo ('свободен');
         } else {
-            echo('занят');
+            echo ('занят');
         }
     }
 
-    public function ajax_check_email() {
+    public function ajax_check_email()
+    {
         $emailX = $_POST['email'];
         if ($this->model->check_email($emailX)) {
-            echo('свободен');
+            echo ('свободен');
         } else {
-            echo('занят');
+            echo ('занят');
         }
     }
 }
