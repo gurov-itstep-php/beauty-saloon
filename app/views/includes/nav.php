@@ -22,10 +22,10 @@
                <div class="collapse navbar-collapse" id="navbarsExample04">
                   <ul class="navbar-nav mr-auto">
                      <li class="nav-item">
-                        <a class="nav-link" href="<?= self::ROOT ?>/home"> Home </a>
+                        <a class="nav-link" href="<?= self::ROOT ?>/home">Home</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="<?= self::ROOT ?>/home/specialists">Our specialists</a>
+                        <a class="nav-link" href="<?= self::ROOT ?>/home/specialists">Specialists</a>
                      </li>
                      <li class="nav-item">
                         <a class="nav-link" href="<?= self::ROOT ?>/catalog">Menu</a>
@@ -33,15 +33,14 @@
                      <li class="nav-item">
                         <a class="nav-link" href="<?= self::ROOT ?>/home/feedback">Feedbacks</a>
                      </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="<?= self::ROOT ?>/home/contact">Contact</a>
+                        </li>
                      <?php if ($this->currentUser === 'admin123') { ?>
                         <li>
                            <a class="nav-link" href="<?= self::ROOT ?>/admin">Admin-panel</a>
                         </li>
-                     <?php } else { ?>
-                        <li class="nav-item">
-                           <a class="nav-link" href="<?= self::ROOT ?>/home/contact">Contact Us</a>
-                        </li>
-                     <?php } ?>
+                     <?php  } ?>
                   </ul>
                </div>
             </nav>
