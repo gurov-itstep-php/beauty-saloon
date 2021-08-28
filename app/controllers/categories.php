@@ -71,7 +71,6 @@ class Categories extends Controller
              ]);
          } else {
               // work ->
-              $form = new CategoryForm();
                  
               if (empty($_POST['submit'])) {
                   // get:
@@ -80,12 +79,8 @@ class Categories extends Controller
                 ]);
               } else {
                   // post:
-                  /*$form->fill();
-                  $categoryId = $form->fields[0]->fieldValue;
-                  $this->model->delete_category($categoryId);
                   // Redirect to Categorylist:*/
                   // ------------------------------------------------
-                  $this->redirect();
               }
          }
         
