@@ -9,11 +9,9 @@ class Model extends Provider {
     public function execute_dml_query($sql, $param = []) {
         if(count($param) === 0 ) {
             $this->conn->query($sql);
-            //echo('<h3>execute_dml_query without_params - Ok!</h3>');
         } else {
             $stmt = $this->conn->prepare($sql);
             $stmt->execute($param);
-            //echo('<h3>execute_dml_query with_params - Ok!</h3>');
         }
     }
 

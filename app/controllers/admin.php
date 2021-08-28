@@ -4,7 +4,7 @@ namespace app\controllers;
 
 use \sys\core\Controller as Controller;
 use \sys\core\View as View;
-use \sys\lib\Status as Status; //*
+use \sys\lib\Status as Status;
 
 class Admin extends Controller {
 

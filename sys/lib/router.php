@@ -59,10 +59,7 @@ class Router {
     }
 
     public function run() {
-        //echo('<h3>run - OK!</h3>');
         $controllerClass = $this->define_controller_class();
-        //echo("<h3>controllerClass - $controllerClass</h3>");
-        // 
         if(!class_exists($controllerClass)) {
             $this->call_page_404();
         } else {
