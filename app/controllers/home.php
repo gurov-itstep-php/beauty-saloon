@@ -12,9 +12,9 @@ class Home extends Controller {
         ]);
     }
 
-    public function about() {
-        return new View('home/about.php', [
-            'title' => 'О салоне'
+    public function specialists() {
+        return new View('home/specialists.php', [
+            'title' => 'Наши специалисты'
         ]);
     }
 

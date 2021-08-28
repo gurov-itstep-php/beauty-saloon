@@ -25,7 +25,7 @@
                         <a class="nav-link" href="<?= self::ROOT ?>/home"> Home </a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="<?= self::ROOT ?>/home/about">About</a>
+                        <a class="nav-link" href="<?= self::ROOT ?>/home/specialists">Our specialists</a>
                      </li>
                      <li class="nav-item">
                         <a class="nav-link" href="<?= self::ROOT ?>/catalog">Menu</a>
