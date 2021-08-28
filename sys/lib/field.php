@@ -18,7 +18,6 @@ class Field {
     }
 
     public function generate() {
-        //input type="text" name="login" id="login" class="form-item" placeholder="..." required
         echo('<');
         echo($this->tagName);
         echo(' type="'.$this->typeName.'"');
