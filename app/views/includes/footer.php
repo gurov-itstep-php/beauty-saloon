@@ -5,7 +5,7 @@
             <div class="col-md-8 offset-md-4">
                <form class="bottom_form">
                   <h3>Newsletter</h3>
-                  <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
+                  <input class="enter" placeholder="Enter your email" type="text" name="">
                   <button class="sub_btn">subscribe</button>
                </form>
             </div>
