@@ -7,7 +7,7 @@ use \app\models\User as User;
 use \app\forms\Regform as Regform;
 use \app\forms\Entryform as Entryform;
 use \sys\core\Controller as Controller;
-use \sys\lib\Mailer as Mailer;
+use \sys\lib\RegMailer as Mailer;
 use sys\lib\Status;
 
 class Auth extends Controller
