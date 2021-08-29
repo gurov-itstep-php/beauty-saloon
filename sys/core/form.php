@@ -3,6 +3,7 @@
 namespace sys\core;
 
 use \sys\lib\Field as Field;
+use \app\models\User;
 
 class Form {
 
@@ -71,6 +72,10 @@ class Form {
             foreach ($this->fields as $field) {
                 if(isset($_POST[$field->name])) {
                     $field->fieldValue = $_POST[$field->name];
+                }
+                // загрузка файлов(бинарников) производится через глобальный массив $_FILES[]:
+                if (isset($_FILES[$field->name])) {
+                    $field->fieldValue = $_FILES[$field->name];
                 }
             }
         }

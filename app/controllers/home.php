@@ -23,10 +23,4 @@ class Home extends Controller {
             'title' => 'Отзывы'
         ]);
     }
-
-    public function contact() {
-        return new View('home/contact.php', [
-            'title' => 'Контакты'
-        ]);
-    }
 }

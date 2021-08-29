@@ -34,7 +34,7 @@
                         <a class="nav-link" href="<?= self::ROOT ?>/home/feedback">Feedbacks</a>
                      </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="<?= self::ROOT ?>/home/contact">Contact</a>
+                           <a class="nav-link" href="<?= self::ROOT ?>/sendmail">Contact</a>
                         </li>
                      <?php if ($this->currentUser === 'admin123') { ?>
                         <li>
