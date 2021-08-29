@@ -4,7 +4,8 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="titlepage">
-                    <h2> <img src="<?= self::RES ?>/images/head.h.png" alt="#" /> Request <span class="white"> A call Back</span></h2>
+                    <h2 style="color: rgb(238, 215, 234);"> <img src="<?= self::RES ?>/images/head.h.png" alt="#" /> Request <span class="white"> A call Back</span></h2>
+                    <p style="color: rgb(238, 215, 234);"> >>>> Эта страница ещё в разработке...</p>
                 </div>
             </div>
         </div>
