@@ -2,7 +2,7 @@
 
 namespace sys\lib;
 
-class Mailer {
+class RegMailer {
     public $to;
     public $from;
     public $subject;
