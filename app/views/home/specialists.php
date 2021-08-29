@@ -4,8 +4,8 @@
         <div class="row">
             <div class="col-md-9">
                 <div class="titlepage">
-                    <h2> <img src="<?= self::RES ?>/images/head.h.png" alt="#" /> Our specialists Beauty-Saloon "Careo"</h2>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are </p>
+                    <h2 style="color: rgb(238, 215, 234);"> <img src="<?= self::RES ?>/images/head.h.png" alt="#" /> Our specialists Beauty-Saloon "Careo"</h2>
+                    <p style="color: rgb(238, 215, 234);"> >>>> Эта страница ещё в разработке...</p>
                     <a class="read_more">Read More</a>
                 </div>
             </div>

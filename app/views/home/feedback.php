@@ -5,6 +5,7 @@
             <div class="col-md-12">
                 <div class="titlepage">
                     <h2> <img src="<?= self::RES ?>/images/head.png" alt="#" /> Our Customer Feedback</h2>
+                    <p > >>>> Эта страница ещё в разработке...</p>
                 </div>
             </div>
         </div>
@@ -22,7 +23,7 @@
                                 <i><img src="<?= self::RES ?>/images/tes.png" alt="#" /></i>
                                 <h4>Rohali jonson</h4>
                                 <span>customer</span>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined </p>
+                                <p>>>>> Эта страница ещё в разработке... </p>
                                 <img src="<?= self::RES ?>/images/icon.png" alt="#" />
                             </div>
                         </div>
@@ -35,7 +36,7 @@
                                 <i><img src="<?= self::RES ?>/images/tes.png" alt="#" /></i>
                                 <h4>Rohali jonson</h4>
                                 <span>customer</span>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined </p>
+                                <p>>>>> Эта страница ещё в разработке...</p>
                                 <img src="<?= self::RES ?>/images/icon.png" alt="#" />
                             </div>
                         </div>
@@ -48,7 +49,7 @@
                                 <i><img src="<?= self::RES ?>/images/tes.png" alt="#" /></i>
                                 <h4>Rohali jonson</h4>
                                 <span>customer</span>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined </p>
+                                <p>>>>> Эта страница ещё в разработке...</p>
                                 <img src="<?= self::RES ?>/images/icon.png" alt="#" />
                             </div>
                         </div>
