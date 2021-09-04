@@ -6,5 +6,7 @@
     </center>
     <div class="form-box">
         <?php $form->generate(); ?>
+        <hr>
+        <a href="<?= self::ROOT ?>/categories/index" style="width: 225px">Вернуться к списку</a>
     </div>
 </div>
