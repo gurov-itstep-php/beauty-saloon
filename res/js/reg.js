@@ -53,7 +53,7 @@ $(document).ready(() => {
         if (regExp2.test(pass1Value)) {
             console.log('#pass1-valid');
             correct2 = true;
-            $('pass1-error').html('');
+            $('#pass1-error').html('');
         } else {
             console.log('pass1-failed');
             correct1 = false;

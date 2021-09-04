@@ -4,4 +4,9 @@
         Удаление категории услуг
         </h2>
     </center>
+    <div class="form-box">
+        <?php $form->generate_with_velues(); ?>
+        <hr>
+        <a href="<?= self::ROOT ?>/categories/index" style="width: 225px">Вернуться к списку</a>
+    </div>
 </div>
