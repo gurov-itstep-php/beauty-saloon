@@ -5,16 +5,19 @@
         </h2>
     </center>
     <hr>
-    <div class="row" style="text-align:center">
-            <div class="col-md-5">
-                <a href="<?= self::ROOT ?>/categories/create" class="btn btn-sm btn-light" style="width: 150px">Добавить категорию</a>
+
+    <div class="container" style="text-align:center">
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-2">
+                <a href="<?= self::ROOT ?>/categories/create" class="sub_btn" style="width: 150px">Добавить категорию</a>
             </div>
-            <div class="col-md-2">
-                <a href="<?= self::ROOT ?>/categories/delete" class="btn btn-sm btn-light" style="width: 150px">Удалить категорию</a>
+            <div class="col col-lg-2">
+                <a href="<?= self::ROOT ?>/categories/update" class="sub_btn" style="width: 150px">Обновить категорию</a>
             </div>
-            <div class="col-md-5">
-                <a href="<?= self::ROOT ?>/categories/update" class="btn btn-sm btn-light" style="width: 150px">Обновить категорию</a>
+            <div class="col col-lg-2">
+                <a href="<?= self::ROOT ?>/categories/delete" class="sub_btn" style="width: 150px">Удалить категорию</a>
             </div>
         </div>
-        <hr>
+    </div>
+    <hr>
 </div>
